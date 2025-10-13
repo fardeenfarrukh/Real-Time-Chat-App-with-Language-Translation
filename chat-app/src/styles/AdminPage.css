@@ -1,0 +1,113 @@
+/* ===========================
+   Admin Page Container
+   =========================== */
+.adminContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: rgba(30, 30, 60, 0.85);
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+/* ===========================
+   Headings
+   =========================== */
+.adminContainer h2 {
+  margin: 0 0 1.5rem 0;
+  color: #a29bfe;
+}
+
+.adminContainer h3 {
+  color: #4ecdc4;
+  margin-bottom: 0.75rem;
+}
+
+/* ===========================
+   Sections
+   =========================== */
+.adminContainer section {
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid rgba(255,255,255,0.15);
+}
+
+/* ===========================
+   Lists
+   =========================== */
+.adminContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.adminContainer li {
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adminContainer li strong {
+  color: #4ecdc4;
+}
+
+/* ===========================
+   Buttons
+   =========================== */
+.adminContainer button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #6c5ce7;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.adminContainer button:hover {
+  background: #4834d4;
+  transform: translateY(-2px);
+}
+
+/* ===========================
+   Delete Button
+   =========================== */
+.adminContainer .deleteBtn {
+  background: #e17055;
+}
+
+.adminContainer .deleteBtn:hover {
+  background: #d63031;
+}
+
+/* ===========================
+   Inputs
+   =========================== */
+.adminContainer input {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: none;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  color: #222;
+  background: #f0f0f0;
+  transition: border 0.25s ease, box-shadow 0.25s ease;
+}
+
+.adminContainer input:focus {
+  outline: none;
+  border: 1px solid #4ecdc4;
+  box-shadow: 0 0 6px rgba(78, 205, 196, 0.6);
+}

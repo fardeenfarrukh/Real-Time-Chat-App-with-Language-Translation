@@ -1,0 +1,124 @@
+/* ===========================
+   Global Body Styles
+   =========================== */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6c5ce7, #4ecdc4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===========================
+   Home Container
+   =========================== */
+.home-container {
+  max-width: 700px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  background: rgba(30, 30, 60, 0.75);
+  color: #f0f0f0;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* ===========================
+   Headings
+   =========================== */
+.home-container h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  color: #a29bfe;
+}
+
+/* ===========================
+   Paragraphs
+   =========================== */
+.home-container p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.home-container p:last-child {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #bbb;
+  padding-top: 1rem;
+  border-top: 2px solid rgba(255,255,255,0.15);
+}
+
+/* ===========================
+   Button Container
+   =========================== */
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* ===========================
+   Buttons (Base)
+   =========================== */
+.home-buttons button {
+  padding: 0.9rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.home-buttons button:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgba(78, 205, 196, 0.6);
+}
+
+/* ===========================
+   Sign In Button
+   =========================== */
+.home-buttons button:nth-child(1) {
+  background: #4ecdc4;
+  color: #fff;
+}
+
+.home-buttons button:nth-child(1):hover {
+  background: #3bb3aa;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+/* ===========================
+   Sign Up Button
+   =========================== */
+.home-buttons button:nth-child(2) {
+  background: #a29bfe;
+  color: #fff;
+}
+
+.home-buttons button:nth-child(2):hover {
+  background: #7f6de0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+/* ===========================
+   Guest Button
+   =========================== */
+.home-buttons button:nth-child(3) {
+  background: #ff6b81;
+  color: #fff;
+}
+
+.home-buttons button:nth-child(3):hover {
+  background: #e85a70;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
