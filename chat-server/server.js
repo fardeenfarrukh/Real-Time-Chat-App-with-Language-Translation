@@ -6,6 +6,9 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
+// Health check route - ADD THIS LINE
+app.get('/', (req, res) => res.send('Backend is alive!'));
+
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 

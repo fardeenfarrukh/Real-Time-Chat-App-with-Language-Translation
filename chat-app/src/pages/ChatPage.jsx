@@ -104,7 +104,7 @@ export default function ChatPage() {
       }
     });
 
-    const socket = new WebSocket("wss://my-chatapp-server.onrender.com");
+    const socket = new WebSocket("wss://https://my-chatapp-server.onrender.com/");
     socketRef.current = socket;
 
     socket.onopen = () => {
