@@ -19,7 +19,7 @@ The system includes:
 - Responsive UI for desktop and mobile
 
 ## Project structure
-...
+...markdown
 Project 2/
 ├── chat-app/                          # Frontend (React + Vite)
 │   ├── node_modules/
@@ -66,13 +66,13 @@ Project 2/
 
 ## Environment variables
 Create a `.env` file inside `chat-app/` with the following:
-...
+...markdown
 # Microsoft Translator
 VITE_MS_TRANSLATOR_KEY=your-translator-key
 VITE_MS_TRANSLATOR_REGION=your-region
 VITE_MS_TRANSLATOR_ENDPOINT=https://api.cognitive.microsofttranslator.com/
 ...
-...
+...markdown
 # Firebase
 VITE_FIREBASE_API_KEY=your-firebase-api-key
 VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
