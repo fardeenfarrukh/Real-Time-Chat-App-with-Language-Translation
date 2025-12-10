@@ -126,4 +126,4 @@ Deploy `chat-server` to a Node hosting service such as Render, Railway, Heroku, 
 - Performance (low latency, concurrent sessions)
 - Code quality and documentation
 - User experience and responsive design
-- Deliverable quality (paper and video)
+- Deliverable quality (paper and video) Video: (https://youtu.be/KthaXlWoBlY)
