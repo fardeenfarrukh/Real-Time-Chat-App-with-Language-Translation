@@ -1,0 +1,133 @@
+/* ===========================
+   Login Page Container
+   =========================== */
+.loginContainer {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  background: rgba(30, 30, 60, 0.75);
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* ===========================
+   Headings
+   =========================== */
+.loginContainer h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #a29bfe;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+/* ===========================
+   Inputs and Buttons (Base)
+   =========================== */
+.loginContainer input,
+.loginContainer button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* ===========================
+   Inputs
+   =========================== */
+.loginContainer input {
+  border: 1px solid #555;
+  background: #f0f0f0;
+  color: #222;
+  transition: border 0.25s ease, box-shadow 0.25s ease;
+}
+
+.loginContainer input:focus {
+  outline: none;
+  border: 1px solid #4ecdc4;
+  box-shadow: 0 0 6px rgba(78, 205, 196, 0.6);
+}
+
+/* ===========================
+   Primary Button (Login/Signup)
+   =========================== */
+.loginContainer button[type="submit"] {
+  background: #4ecdc4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.loginContainer button[type="submit"]:hover {
+  background: #3bb3aa;
+  transform: translateY(-3px);
+}
+
+.loginContainer button[type="submit"]:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgba(78, 205, 196, 0.6);
+}
+
+/* ===========================
+   Guest Button
+   =========================== */
+.loginContainer > button {
+  background: #ff6b81;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.loginContainer > button:hover {
+  background: #e85a70;
+  transform: translateY(-3px);
+}
+
+.loginContainer > button:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgba(232, 90, 112, 0.6);
+}
+
+/* ===========================
+   Toggle Link
+   =========================== */
+.loginContainer p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.loginContainer p button {
+  background: none;
+  border: none;
+  color: #a29bfe;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.loginContainer p button:hover {
+  text-decoration: underline;
+}
+
+/* ===========================
+   Privacy Notice
+   =========================== */
+.privacyNotice {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+  padding-top: 0.75rem;
+  border-top: 2px solid rgba(255,255,255,0.15);
+}

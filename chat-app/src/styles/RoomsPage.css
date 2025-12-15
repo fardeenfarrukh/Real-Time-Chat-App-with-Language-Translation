@@ -1,0 +1,161 @@
+/* ===========================
+   Rooms Page Container
+   =========================== */
+.roomsContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: rgba(30, 30, 60, 0.75);
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  backdrop-filter: blur(10px);
+}
+
+/* ===========================
+   Headings
+   =========================== */
+.roomsContainer h2 {
+  margin: 0 0 1rem 0;
+  color: #a29bfe;
+}
+
+/* ===========================
+   Buttons
+   =========================== */
+.roomsContainer button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background: #4ecdc4;
+  color: #fff;
+}
+
+.roomsContainer button:hover {
+  background: #3bb3aa;
+  transform: translateY(-3px);
+}
+
+/* ===========================
+   Default List Styling
+   =========================== */
+.roomsContainer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  flex: 1;
+  overflow-y: auto;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+}
+
+.roomsContainer li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.roomsContainer li:last-child {
+  border-bottom: none;
+}
+
+.roomsContainer li span {
+  font-weight: bold;
+  color: #4ecdc4;
+}
+
+/* ===========================
+   Section Wrappers
+   =========================== */
+.createRoomSection,
+.roomListSection {
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ===========================
+   Section Headings
+   =========================== */
+.createRoomSection h3,
+.roomListSection h3 {
+  margin-top: 0.5rem;
+  color: #ffeaa7;
+  font-size: 1.2rem;
+}
+
+/* ===========================
+   User Selection List
+   =========================== */
+.userList {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1rem 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.userList li {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.userList input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* ===========================
+   Rooms List
+   =========================== */
+.roomsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roomItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.roomItem:last-child {
+  border-bottom: none;
+}
+
+.roomName {
+  font-weight: bold;
+  color: #4ecdc4;
+}
+
+/* ===========================
+   Room Actions
+   =========================== */
+.roomActions button {
+  margin-left: 0.5rem;
+}
+
+/* ===========================
+   Delete Button
+   =========================== */
+.deleteBtn {
+  background: #e17055;
+}
+
+.deleteBtn:hover {
+  background: #d63031;
+}

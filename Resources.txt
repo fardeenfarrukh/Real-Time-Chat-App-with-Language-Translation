@@ -1,0 +1,21 @@
+Firebase References:
+- Firebase Friendly Chat Codelab (official): https://firebase.google.com/codelabs/firebase-android 
+- How to Build a Chat App with Firebase (CometChat tutorial): https://www.cometchat.com/tutorials/how-to-build-a-chat-app-with-firebase 
+- Firebase Chat App Tutorial (DeadSimpleChat blog): https://deadsimplechat.com/blog/firebase-chat-app-tutorial/ 
+- YouTube: Firebase Chat App Basics https://www.youtube.com/watch?v=9kRgVxULbag
+- YouTube: Firebase Deploy Tutorial https://www.youtube.com/watch?v=8PSjl5-GOJo
+
+WebSocket & Chat Server References:
+- Build a Real-Time Chat App using Node.js and WebSocket (DEV.to): https://dev.to/devland/build-a-real-time-chat-app-using-nodejs-and-websocket-441g 
+- WebSockets in Node.js (GeeksforGeeks): https://www.geeksforgeeks.org/node-js/web-socket-in-node-js/ 
+- Node.js WebSocket official docs: https://nodejs.org/en/learn/getting-started/websocket 
+- WebSockets Server in Node.js with Socket.io Tutorial: https://mobisoftinfotech.com/resources/blog/websockets-server-nodejs-socketio-tutorial 
+- YouTube: WebSocket Chat App Tutorial https://www.youtube.com/watch?v=zQyrwxMPm88
+- YouTube: Node.js WebSocket Basics https://www.youtube.com/watch?v=2-LISBTczQE
+- YouTube: Real-Time Chat with Socket.io https://www.youtube.com/watch?v=hPy4gQjc8vo
+- YouTube: Advanced WebSocket Chat https://www.youtube.com/watch?v=YJboX8E56tA
+
+Architecture & Real-Time Messaging References:
+- GitHub Topic: Real-Time Chat Apps https://github.com/topics/real-time-chat-app 
+- Ably Blog: What it takes to build a realtime messaging app https://ably.com/blog/what-it-takes-to-build-a-realtime-chat-or-messaging-app 
+- Design Gurus: How to Design a Real-Time Chat Application https://www.designgurus.io/blog/design-chat-application 
